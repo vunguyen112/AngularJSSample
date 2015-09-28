@@ -8,6 +8,7 @@
 </head>
 <body ng-app="myApp">
     <div ng-controller="stockController as mainCtrl">
+        <h3>Testing push in eclipse</h3>
         <h3>List of stock</h3>
         <div ng-repeat="s in mainCtrl.stocks">
             <div stock-widget stock-data="s" when-select="mainCtrl.onStockSelect()"></div>
