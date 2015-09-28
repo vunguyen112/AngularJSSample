@@ -7,7 +7,7 @@
 <spring:url value="/resources/js/myApp.js" var="myApp"></spring:url>
 </head>
 <body ng-app="myApp">
-    <div ng-controller="stockController as mainCtrl">
+    <div ng-controller="stockController as mainCtrl" style="background-color: gray; azimuth:">
         <h3>List Stocks</h3>
         <div ng-repeat="s in mainCtrl.stocks">
             <div stock-widget stock-data="s" when-select="mainCtrl.onStockSelect()"></div>
